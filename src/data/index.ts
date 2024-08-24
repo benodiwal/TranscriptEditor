@@ -1,4 +1,4 @@
-export const initialTranscript	= [
+export const initialTranscript = [
     { word: 'Hello', start_time: 0, duration: 500 },
     { word: 'world', start_time: 500, duration: 700 },
     { word: 'This', start_time: 1200, duration: 300 },
@@ -7,8 +7,18 @@ export const initialTranscript	= [
     { word: 'test', start_time: 1800, duration: 400 },
     { word: 'transcript', start_time: 2200, duration: 600 },
     { word: 'for', start_time: 2800, duration: 200 },
-    { word: 'playback', start_time: 3000, duration: 500 },
-    { word: 'and', start_time: 3500, duration: 250 },
-    { word: 'editing', start_time: 3750, duration: 800 },
-    { word: 'features.', start_time: 4550, duration: 650 },
+    { word: 'testing', start_time: 3000, duration: 500 },
+    { word: 'the', start_time: 3500, duration: 250 },
+    { word: 'correct', start_time: 3750, duration: 400 },
+    { word: 'all', start_time: 4150, duration: 300 },
+    { word: 'feature', start_time: 4450, duration: 400 },
+    { word: 'The', start_time: 4850, duration: 200 },
+    { word: 'correct', start_time: 5050, duration: 400 },
+    { word: 'all', start_time: 5450, duration: 300 },
+    { word: 'function', start_time: 5750, duration: 500 },
+    { word: 'should', start_time: 6250, duration: 300 },
+    { word: 'update', start_time: 6550, duration: 400 },
+    { word: 'all', start_time: 6950, duration: 300 },
+    { word: 'subsequent', start_time: 7250, duration: 600 },
+    { word: 'words.', start_time: 7850, duration: 400 },
 ];

@@ -1,7 +1,10 @@
+import TranscriptEditor from "./components/Editor"
+import { initialTranscript } from "./data"
+
 const App = () => {
   return (
-    <div className="text-red-100">
-      Hi there !      
+    <div>
+      <TranscriptEditor initialTranscript={initialTranscript}/>
     </div>
   )
 }

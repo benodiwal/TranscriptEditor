@@ -135,7 +135,7 @@ const TranscriptEditor: React.FC<TranscriptEditorProps> = ({ initialTranscript }
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 bg-gray-900 text-white">
+    <div className="max-w-4xl mx-auto p-4 bg-white text-gray-900">
       <div className="mb-4 flex items-center">
         <button
           onClick={togglePlayback}
@@ -164,8 +164,8 @@ const TranscriptEditor: React.FC<TranscriptEditorProps> = ({ initialTranscript }
                 <div className="text-gray-500 text-sm">{formatTime(item.start_time)}</div>
               )}
               <span
-                className={`inline-block cursor-pointer mr-1 ${
-                  isHighlighted ? 'bg-yellow-500 text-black' : ''
+                className={`relative inline-block cursor-pointer mr-1 ${
+                  isHighlighted ? 'highlight-wire' : ''
                 }`}
                 onClick={() => handleWordClick(index)}
               >
